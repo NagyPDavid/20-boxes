@@ -1,3 +1,8 @@
+body{
+    width: 50%;
+    padding-left: 10%;
+}
+
 div {
     border-style: solid;
     border-color: lightskyblue;
@@ -27,4 +32,17 @@ li {
 .purple:hover {
     height: 60px;
     width: 60px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center:hover{
+    background-color: chocolate;
+}
+.first{
+    margin-bottom: 10px;
 }
